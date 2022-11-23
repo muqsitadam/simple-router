@@ -88,7 +88,8 @@ class Signin extends Component{
                     </div>
                    {(showDetails&&email!=''&&password!='')&&
                     <div className="text-3xl font-bold mt-5 text-white">
-                       Email: {email}<br/> Password: {password}
+                       Email: {email}<br/>
+                       Password: {password}
                     </div>}
                 </div>
             </section>
