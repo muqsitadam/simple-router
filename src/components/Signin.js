@@ -45,12 +45,12 @@ class Signin extends Component{
     render(){
     const {quote, author, email, password,showDetails} = this.state
     return(
-        <div>
+        <div className="bg-gray-50 dark:bg-gray-900 pb-10">
             <nav>
-            <Link to='/'>Home</Link>
+            <Link className="text-gray-300 pb-5 text-2xl" to='/'>Home</Link>
             </nav>
             <section className="bg-gray-50 dark:bg-gray-900">
-                <div className="text-2xl pt-5 text-center font-bold leading-tight tracking-tight text-gray-900 md:text-3xl dark:text-white">
+                <div className="text-xl pt-5 text-center font-bold leading-tight tracking-tight text-gray-900 md:text-3xl dark:text-white">
                     {quote} <br/><i className="text-md text-xl">{author}</i>
                 </div>
                 <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
