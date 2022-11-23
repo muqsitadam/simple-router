@@ -22,7 +22,7 @@ class Signin extends Component{
                 quote: quotes[randomNumber].quote,
                 author: quotes[randomNumber].author
             });
-        }, 5000);
+        }, 3000);
     }
 
     emailInput = (event) => {
@@ -86,7 +86,7 @@ class Signin extends Component{
                             </form>
                         </div>
                     </div>
-                   {showDetails&&
+                   {(showDetails&&email!=''&&password!='')&&
                     <div className="text-3xl font-bold mt-5 text-white">
                        Email: {email}<br/> Password: {password}
                     </div>}
