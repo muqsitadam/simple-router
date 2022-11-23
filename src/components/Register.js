@@ -35,9 +35,9 @@ class Register extends Component{
   render(){
     const { name, company, email, password,showDetails} = this.state
     return(
-      <div className="bg-gray-50 dark:bg-gray-900 pb-10">
+      <div className="bg-gray-50 dark:bg-gray-900 pt-3 pb-10">
         <nav>
-          <Link className="text-white text-2xl" to='/'>Home</Link>
+          <Link className="text-white pl-5 pt-5 text-2xl" to='/'>Home</Link>
         </nav>
         <section className="bg-gray-50 dark:bg-gray-900">
           <div className="flex flex-col items-center justify-center px-6 py-10 mx-auto md:h-screen lg:py-0">

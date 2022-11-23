@@ -45,9 +45,9 @@ class Signin extends Component{
     render(){
     const {quote, author, email, password,showDetails} = this.state
     return(
-        <div className="bg-gray-50 dark:bg-gray-900 pb-10">
+        <div className="bg-gray-50 dark:bg-gray-900 pt-3 pb-10">
             <nav>
-            <Link className="text-gray-300 pb-5 text-2xl" to='/'>Home</Link>
+            <Link className="text-gray-300 px-3 pt-10 pb-5 text-2xl" to='/'>Home</Link>
             </nav>
             <section className="bg-gray-50 dark:bg-gray-900">
                 <div className="text-xl pt-5 text-center font-bold leading-tight tracking-tight text-gray-900 md:text-3xl dark:text-white">
